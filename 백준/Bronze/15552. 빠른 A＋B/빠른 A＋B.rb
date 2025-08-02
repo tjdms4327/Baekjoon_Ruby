@@ -1,6 +1,9 @@
-t=gets.to_i
+t = gets.to_i
 
+results = []
 t.times do
-    a, b=STDIN.readline.split.map!(&:to_i)
-    puts a+b
+  a, b = gets.split.map(&:to_i)
+  results << a + b
 end
+
+puts results
