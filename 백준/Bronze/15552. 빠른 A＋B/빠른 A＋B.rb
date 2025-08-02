@@ -7,4 +7,3 @@ t.times do
 end
 
 puts results
-
